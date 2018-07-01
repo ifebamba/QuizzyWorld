@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="General Knowledge Quiz"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:background="@drawable/logo"
+            android:scaleType="center" />
+
+        <EditText
+            android:id="@+id/name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:hint="Please Enter your name"
+            android:inputType="textCapWords" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="#388E3C"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="01"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#60BFB7"
+                    android:padding="5dp"
+                    android:text="What is the capital of Turkey?"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+
+                <RadioGroup
+                    android:id="@+id/capitalOfTurkey"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/ankara"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="24dp"
+                        android:text="Ankara" />
+
+                    <RadioButton
+                        android:id="@+id/lagos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="24dp"
+                        android:text="Lagos" />
+
+                    <RadioButton
+                        android:id="@+id/Accra"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="24dp"
+                        android:text="Accra" />
+
+                    <RadioButton
+                        android:id="@+id/istanbul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="24dp"
+                        android:text="Istanbul" />
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="#F57C00"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="02"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F4C400"
+                    android:padding="5dp"
+                    android:text="What is the religion of the Dalai Lama?"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+
+                <RadioGroup
+                    android:id="@+id/religionDalai"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/christianity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="24dp"
+                        android:text="Christianity" />
+
+                    <RadioButton
+                        android:id="@+id/buddhism"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="24dp"
+                        android:text="Buddhism" />
+
+                    <RadioButton
+                        android:id="@+id/islam"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="24dp"
+                        android:text="Islam" />
+
+                    <RadioButton
+                        android:id="@+id/hinduism"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="24dp"
+                        android:text="Hinduism" />
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="#111"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="03"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#757575"
+                    android:padding="5dp"
+                    android:text="The first Black president of the United States"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical"
+                android:padding="2dp">
+
+
+                <RadioGroup
+                    android:id="@+id/firstBlackPresident"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/mlk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="24dp"
+                        android:text="Martin Luther King (Jr)" />
+
+                    <RadioButton
+                        android:id="@+id/obama"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="24dp"
+                        android:text="Barack Obama" />
+
+                    <RadioButton
+                        android:id="@+id/malcomX"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="24dp"
+                        android:text="Malcom X" />
+
+                    <RadioButton
+                        android:id="@+id/bobMarley"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="24dp"
+                        android:text="Bob Marley" />
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="#3F51B5"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="04"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#03A9F4"
+                    android:padding="5dp"
+                    android:text="Planets in our Solar System (Multiple selections allowed )"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical"
+                android:padding="2dp">
+
+
+                <CheckBox
+                    android:id="@+id/uranus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="24dp"
+                    android:text="Uranus"
+                    android:textSize="16dp" />
+
+
+                <CheckBox
+                    android:id="@+id/jupiter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="24dp"
+                    android:text="Jupiter"
+                    android:textSize="16dp" />
+
+                <CheckBox
+                    android:id="@+id/kratos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="24dp"
+                    android:text="Kratos"
+                    android:textSize="16dp" />
+
+
+                <CheckBox
+                    android:id="@+id/genus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="24dp"
+                    android:text="Genus"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="#00796B"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="05"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#4CAF50"
+                    android:padding="5dp"
+                    android:text="Name a US state beginning with K and sounds like a bird"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+
+                <EditText
+                    android:id="@+id/questionFive"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
+                    android:hint="Type answer here" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="#7B1FA2"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="06"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#9C27B0"
+                    android:padding="5dp"
+                    android:text="What is the Currency of India"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+
+                <RadioGroup
+                    android:id="@+id/currencyOfIndia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rupee"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="24dp"
+                        android:text="Rupee" />
+
+                    <RadioButton
+                        android:id="@+id/dollar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="24dp"
+                        android:text="Dollar" />
+
+                    <RadioButton
+                        android:id="@+id/peso"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="24dp"
+                        android:text="Peso" />
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimaryDark"
+                    android:onClick="gradeQuiz"
+                    android:padding="6dp"
+                    android:text="Score Quiz"
+                    android:textColor="#fff" />
+
+
+
+
+
+
+                <Button
+                    android:id="@+id/clearQuiz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="#E91E63"
+                    android:onClick="clearQuiz"
+                    android:text="Clear Quiz"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
